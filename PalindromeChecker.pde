@@ -17,6 +17,7 @@ public void setup()
 public boolean palindrome(String word)
 {
   String sWord = onlyLetters(word);
+  String a = noCapitals(sWord);
   if (sWord.equals(reverse(sWord)))
     return true;
   else
